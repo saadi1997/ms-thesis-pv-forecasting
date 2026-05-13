@@ -1,0 +1,5 @@
+model,split,rows,MAE_kW,RMSE_kW,MAE_pct_capacity,RMSE_pct_capacity
+xgboost_point,train,40978,0.1654,0.2858,3.15,5.44
+xgboost_point,validation,3869,0.1472,0.2683,2.8,5.11
+xgboost_point,calibration,3798,0.1664,0.2866,3.17,5.46
+xgboost_point,test,6506,0.1781,0.2948,3.39,5.61

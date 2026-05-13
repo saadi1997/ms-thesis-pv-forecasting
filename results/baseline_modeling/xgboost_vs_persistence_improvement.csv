@@ -1,0 +1,2 @@
+baseline_model,ml_model,test_MAE_baseline,test_MAE_xgboost,MAE_reduction_pct,test_RMSE_baseline,test_RMSE_xgboost,RMSE_reduction_pct
+persistence_lag_1h,xgboost_point,0.6632,0.1781,73.15,0.8127,0.2948,63.73

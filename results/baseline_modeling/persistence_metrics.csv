@@ -1,0 +1,5 @@
+model,split,rows,MAE_kW,RMSE_kW,MAE_pct_capacity,RMSE_pct_capacity
+persistence_lag_1h,train,40978,0.6968,0.8396,13.27,15.99
+persistence_lag_1h,validation,3869,0.6805,0.8219,12.96,15.65
+persistence_lag_1h,calibration,3798,0.6778,0.8318,12.91,15.84
+persistence_lag_1h,test,6506,0.6632,0.8127,12.63,15.48

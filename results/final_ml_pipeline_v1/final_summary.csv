@@ -1,0 +1,2 @@
+point_model_test_MAE_kW,point_model_test_RMSE_kW,raw_quantile_test_PICP_pct,conformal_test_PICP_pct,target_coverage_pct,raw_mean_width_kW,conformal_mean_width_kW,width_increase_kW,conformal_q_hat_kW
+0.1781,0.2948,78.6,80.77,80,0.5981,0.6109,0.0128,0.006392837

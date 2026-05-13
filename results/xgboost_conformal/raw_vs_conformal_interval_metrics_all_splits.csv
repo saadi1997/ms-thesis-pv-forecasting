@@ -1,0 +1,9 @@
+model,split,rows,P50_MAE_kW,P50_RMSE_kW,PICP,PICP_pct,target_coverage_pct,coverage_error_pct,mean_interval_width_kW,PINAW,PINAW_pct_capacity,interval_type
+xgboost_quantile_raw,train,40978,0.1703,0.317,0.8061,80.61,80.0,0.61,0.5621,0.1071,10.71,raw_quantile
+xgboost_quantile_raw,validation,3869,0.1422,0.2746,0.8359,83.59,80.0,3.59,0.5372,0.1023,10.23,raw_quantile
+xgboost_quantile_raw,calibration,3798,0.1594,0.2936,0.7712,77.12,80.0,-2.88,0.5163,0.0983,9.83,raw_quantile
+xgboost_quantile_raw,test,6506,0.1736,0.3021,0.786,78.6,80.0,-1.4,0.5981,0.1139,11.39,raw_quantile
+xgboost_quantile_conformal,train,40978,0.1703,0.317,0.8366,83.66,80.0,3.66,0.5749,0.1095,10.95,conformalized_quantile
+xgboost_quantile_conformal,validation,3869,0.1422,0.2746,0.8599,85.99,80.0,5.99,0.55,0.1048,10.48,conformalized_quantile
+xgboost_quantile_conformal,calibration,3798,0.1594,0.2936,0.8007,80.07,80.0,0.07,0.5291,0.1008,10.08,conformalized_quantile
+xgboost_quantile_conformal,test,6506,0.1736,0.3021,0.8077,80.77,80.0,0.77,0.6109,0.1164,11.64,conformalized_quantile
